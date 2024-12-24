@@ -15,7 +15,7 @@ langchain = ">=0.0.239"
 
 [tool.poetry.group.lint.dependencies]
 ruff = "^0.0.249"
-black = "^23.1.0"
+black = ">=23.1,<25.0"
 
 [tool.poetry.group.typing.dependencies]
 mypy = "^0.991"
@@ -23,7 +23,7 @@ types-pyyaml = "^6.0.12.2"
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
-setuptools = "^67.6.1"
+setuptools = ">=67.6.1,<71.0.0"
 
 [tool.poetry.group.test.dependencies]
 # The only dependencies that should be added are
